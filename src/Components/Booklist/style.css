@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  motion: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --firstcolor: #17a2b8;
+}
+.container {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  display: flex;
+  align-items: center;
+}
+.heading img {
+  width: 80px;
+  height: 80px;
+}
+
+.heading h1 {
+  margin-left: 15px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+span {
+  color: var(--firstcolor);
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #495057;
+}
+.form-control {
+  /* display: block; */
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 7px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #495057;
+  border-radius: 6px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+form {
+  width: 100%;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* ======================================== */
+
+.table {
+  width: 100%;
+}
+.table .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+.table td,
+.table th {
+  padding: 6px;
+}
+
+.data {
+  color: rgb(0, 0, 0);
+  /* background-color: grey; */
+  text-align: center;
+}
+
+/* ========================================/ */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.but {
+  padding: 5px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: blue;
+  background-color: rgb(251, 206, 206);
+  border-radius: 10px;
+}
+.inp {
+  font-size: 17px;
+  padding: 5px;
+}
+
+span {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: grey; */
+  font-size: 17px;
+}
